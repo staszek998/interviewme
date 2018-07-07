@@ -7,6 +7,7 @@ import Portfolio from './sections/Portfolio/Portfolio';
 import About from './sections/About/About';
 import Contact from './sections/Contact/Contact';
 import FooterTop from './sections/FooterTop/FooterTop';
+import FooterBottom from './sections/FooterBottom/FooterBottom';
 
 class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ class Main extends Component {
         <About />
         <Contact />
         <FooterTop />
+        <FooterBottom />
       </div>
     );
   }
