@@ -46,7 +46,7 @@ let projects = [
 class Portfolio extends Component {
   render() {
     return (
-      <section className="portfolio">
+      <section className="portfolio" id="portfolio">
         <div className="container portfolio__container">
           <SectionTitle text="portfolio" color="navy" />
           <ProjectsBoard projects={projects} />

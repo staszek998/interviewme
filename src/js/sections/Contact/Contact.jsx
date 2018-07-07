@@ -6,7 +6,7 @@ import SectionTitle from '../../base-components/SectionTitle';
 class Contact extends Component {
   render() {
     return (
-      <section className="contact">
+      <section className="contact" id="contact">
         <div className="container contact__container">
           <SectionTitle color="navy" text="contact me" />
           <Form />

@@ -4,8 +4,14 @@
   font-weight: bold;
   text-decoration: none;
   margin-bottom: 20px;
+  transition: 0.2s;
 
   @media only screen and (min-width: 460px) {
     margin: 0;
+  }
+
+  &:hover {
+    text-shadow: 0px 0px 20px gray;
+    cursor: pointer;
   }
 }

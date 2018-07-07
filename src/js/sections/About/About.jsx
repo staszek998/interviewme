@@ -10,7 +10,7 @@ let textPart2 = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Bland
 class About extends Component {
   render() {
     return (
-      <section className="about">
+      <section className="about" id="about">
         <div className="container about__container">
           <SectionTitle color="white" text="about" />
           <Text textPart1={textPart1} textPart2={textPart2} />
