@@ -420,7 +420,8 @@ section {
     font-size: 20px;
     outline: none;
     transition: 0.2s;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    -webkit-appearance: none; }
     .contact__form input:focus,
     .contact__form textarea:focus {
       border-bottom: 2px solid #304050; }
@@ -434,8 +435,7 @@ section {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 0;
-    -webkit-appearance: none; }
+    padding: 0; }
     .contact__form input:last-child:hover, .contact__form input:last-child:focus {
       background: none;
       border: 2px solid #00ba9b;
