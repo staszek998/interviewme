@@ -1,5 +1,54 @@
 @import '../../config/colors';
+@import './location';
+@import './around-the-web';
+@import './about-freelancer';
 
 .footer-top {
   background-color: $navy;
+  padding: 80px 20px;
+}
+
+.footer-top__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (min-width: 960px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.footer-top__col {
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  .footer-top__col__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 960px) {
+    width: 30%;
+  }
+
+  span,
+  p,
+  a {
+    color: white;
+  }
+
+  p {
+    text-align: center;
+  }
 }

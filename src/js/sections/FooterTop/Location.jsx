@@ -3,15 +3,10 @@ import React, { Component } from 'react';
 class Location extends Component {
   render() {
     return (
-      <div className="footer-top__col">
+      <div className="footer-top__col location">
         <span className="footer-top__col__title">location</span>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <span>2215 John Daniel Drive</span>
+        <span>Clark, MO65243</span>
       </div>
     );
   }

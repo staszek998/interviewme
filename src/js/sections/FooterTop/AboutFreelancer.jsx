@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class AboutFreelancer extends Component {
   render() {
     return (
-      <div className="footer-top__col">
+      <div className="footer-top__col about-freelancer">
         <span className="footer-top__col__title">about freelancer</span>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-          adipisci tempora non officia esse sit quia perferendis laudantium
-          cumque similique earum, eius, voluptatibus, quas repudiandae! Unde ea
-          veniam quia maiores.
+          Freelance is a free to use, open source Bootstrap theme created by{' '}
+          <a href="https://startbootstrap.com/" target="_blank">
+            Start Bootstrap
+          </a>.
         </p>
       </div>
     );

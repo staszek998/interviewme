@@ -8,8 +8,7 @@ class FooterTop extends Component {
   render() {
     return (
       <section className="footer-top">
-        FOOTER TOP
-        <div className="container">
+        <div className="container footer-top__container">
           <Location />
           <AroundTheWeb />
           <AboutFreelancer />
