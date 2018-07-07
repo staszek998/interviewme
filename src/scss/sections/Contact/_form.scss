@@ -21,6 +21,7 @@
     outline: none;
     transition: 0.2s;
     padding-bottom: 20px;
+    -webkit-appearance: none;
 
     &:focus {
       border-bottom: 2px solid $navy;
@@ -39,7 +40,6 @@
     border: none;
     border-radius: 5px;
     padding: 0;
-    -webkit-appearance: none;
 
     &:hover,
     &:focus {
