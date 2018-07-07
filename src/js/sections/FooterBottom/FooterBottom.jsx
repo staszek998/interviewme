@@ -5,7 +5,7 @@ import Copyright from './Copyright';
 class FooterBottom extends Component {
   render() {
     return (
-      <section>
+      <section className="footer-bottom">
         FOOTER BOTTOM
         <div className="container">
           <Copyright brand="Your Website" year="2018" />
