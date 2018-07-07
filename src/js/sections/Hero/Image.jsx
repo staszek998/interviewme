@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
+import heroImage from '../../../images/hero-image.png';
+
 class Image extends Component {
   render() {
-    return <div className="hero__image">I'm an image in the hero section!</div>;
+    return <img src={heroImage} className="hero__image" />;
   }
 }
 

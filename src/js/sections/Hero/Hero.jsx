@@ -8,10 +8,14 @@ class Hero extends Component {
   render() {
     return (
       <section className="hero">
-        <div className="container">
+        <div className="container hero__container">
           <Image />
           <Title />
-          <hr />
+          <div className="separator">
+            <div className="separator__line" />
+            <i className="fas fa-star" />
+            <div className="separator__line" />
+          </div>
           <Subtitle />
         </div>
       </section>
