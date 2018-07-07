@@ -12,6 +12,7 @@ class Hero extends Component {
         <div className="container">
           <Image />
           <Title />
+          <hr />
           <Subtitle />
         </div>
       </section>
