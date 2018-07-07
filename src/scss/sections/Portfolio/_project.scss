@@ -21,6 +21,11 @@
       visibility: visible;
     }
   }
+
+  .project__description.visible {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .project__description {

@@ -265,6 +265,9 @@ section {
   .project:hover .project__description {
     opacity: 1;
     visibility: visible; }
+  .project .project__description.visible {
+    opacity: 1;
+    visibility: visible; }
 
 .project__description {
   visibility: hidden;
