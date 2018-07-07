@@ -6,6 +6,7 @@ import Hero from './sections/Hero/Hero';
 import Portfolio from './sections/Portfolio/Portfolio';
 import About from './sections/About/About';
 import Contact from './sections/Contact/Contact';
+import FooterTop from './sections/FooterTop/FooterTop';
 
 class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ class Main extends Component {
         <Portfolio />
         <About />
         <Contact />
+        <FooterTop />
       </div>
     );
   }
