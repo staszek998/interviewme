@@ -5,6 +5,7 @@ import Navbar from './sections/Navbar/Navbar';
 import Hero from './sections/Hero/Hero';
 import Portfolio from './sections/Portfolio/Portfolio';
 import About from './sections/About/About';
+import Contact from './sections/Contact/Contact';
 
 class Main extends Component {
   render() {
@@ -14,6 +15,7 @@ class Main extends Component {
         <Hero />
         <Portfolio />
         <About />
+        <Contact />
       </div>
     );
   }
