@@ -7,6 +7,7 @@ class Logo extends Component {
         className="navbar__logo"
         href="https://startbootstrap.com/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         START BOOTSTRAP
       </a>

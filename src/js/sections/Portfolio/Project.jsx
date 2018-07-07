@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 class Project extends Component {
   render() {
-    let description;
-
     return (
       <div
         className="project"

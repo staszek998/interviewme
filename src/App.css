@@ -431,7 +431,8 @@ section {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 0; }
+    padding: 0;
+    -webkit-appearance: none; }
     .contact__form input:last-child:hover, .contact__form input:last-child:focus {
       background: none;
       border: 2px solid #00ba9b;

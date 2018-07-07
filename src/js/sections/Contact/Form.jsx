@@ -5,7 +5,8 @@ class Form extends Component {
     return (
       <form
         action="submit"
-        onSubmit={() => {
+        onSubmit={event => {
+          event.preventDefault();
           alert('Message sent!');
         }}
         className="contact__form"

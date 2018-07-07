@@ -10,7 +10,7 @@ class Link extends Component {
 
   render() {
     return (
-      <a className="navbar__link" href="#" onClick={this.clickHandler}>
+      <a className="navbar__link" onClick={this.clickHandler}>
         {this.props.text}
       </a>
     );

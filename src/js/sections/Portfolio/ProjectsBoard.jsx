@@ -32,6 +32,8 @@ class ProjectsBoard extends Component {
                     key={index}
                   />
                 );
+              } else {
+                return null;
               }
             })}
           </div>
@@ -47,6 +49,8 @@ class ProjectsBoard extends Component {
                     key={index}
                   />
                 );
+              } else {
+                return null;
               }
             })}
           </div>
@@ -62,6 +66,8 @@ class ProjectsBoard extends Component {
                     key={index}
                   />
                 );
+              } else {
+                return null;
               }
             })}
           </div>
@@ -79,6 +85,8 @@ class ProjectsBoard extends Component {
                     key={index}
                   />
                 );
+              } else {
+                return null;
               }
             })}
           </div>
@@ -94,6 +102,8 @@ class ProjectsBoard extends Component {
                     key={index}
                   />
                 );
+              } else {
+                return null;
               }
             })}
           </div>
