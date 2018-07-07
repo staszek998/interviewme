@@ -286,11 +286,15 @@ section {
   .project__description a {
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 22px;
     font-weight: bold;
-    margin-bottom: 10px; }
-  .project__description span {
-    font-size: 20px; }
+    margin-bottom: 10px;
+    font-size: 18px; }
+    @media only screen and (min-width: 460px) {
+      .project__description a {
+        font-size: 22px; } }
+  @media only screen and (min-width: 460px) {
+    .project__description span {
+      font-size: 20px; } }
 
 .projects-board-wrapper {
   width: 100%; }
