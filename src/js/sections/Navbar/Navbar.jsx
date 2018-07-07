@@ -7,12 +7,13 @@ class Navbar extends Component {
   render() {
     return (
       <section className="navbar">
-        NAVBAR
         <div className="container navbar__container">
           <Logo />
-          <Link />
-          <Link />
-          <Link />
+          <div className="navbar__links-wrapper">
+            <Link text="portfolio" href="#" />
+            <Link text="about" href="#" />
+            <Link text="contact" href="#" />
+          </div>
         </div>
       </section>
     );

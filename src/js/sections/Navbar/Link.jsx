@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 
 class Link extends Component {
   render() {
-    return <div>I'm a navbar link</div>;
+    return (
+      <a className="navbar__link" target="_blank" href={this.props.href}>
+        {this.props.text}
+      </a>
+    );
   }
 }
 

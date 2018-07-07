@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 
 class Logo extends Component {
   render() {
-    return <div>START BOOTSTRAP</div>;
+    return (
+      <a className="navbar__logo" href="#">
+        START BOOTSTRAP
+      </a>
+    );
   }
 }
 
