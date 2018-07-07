@@ -10,9 +10,9 @@ class Navbar extends Component {
         <div className="container navbar__container">
           <Logo />
           <div className="navbar__links-wrapper">
-            <Link text="portfolio" href="#portfolio" />
-            <Link text="about" href="#about" />
-            <Link text="contact" href="#contact" />
+            <Link text="portfolio" id="#portfolio" />
+            <Link text="about" id="#about" />
+            <Link text="contact" id="#contact" />
           </div>
         </div>
       </section>
