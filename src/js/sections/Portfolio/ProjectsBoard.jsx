@@ -9,7 +9,13 @@ class ProjectsBoard extends Component {
         <div className="projects-board projects-board--phone">
           {this.props.projects.map((project, index) => {
             return (
-              <Project imgUrl={project.url} href={project.href} key={index} />
+              <Project
+                imgUrl={project.url}
+                href={project.href}
+                title={project.title}
+                subtitle={project.subtitle}
+                key={index}
+              />
             );
           })}
         </div>
@@ -21,6 +27,8 @@ class ProjectsBoard extends Component {
                   <Project
                     imgUrl={project.url}
                     href={project.href}
+                    title={project.title}
+                    subtitle={project.subtitle}
                     key={index}
                   />
                 );
@@ -34,6 +42,8 @@ class ProjectsBoard extends Component {
                   <Project
                     imgUrl={project.url}
                     href={project.href}
+                    title={project.title}
+                    subtitle={project.subtitle}
                     key={index}
                   />
                 );
@@ -47,6 +57,8 @@ class ProjectsBoard extends Component {
                   <Project
                     imgUrl={project.url}
                     href={project.href}
+                    title={project.title}
+                    subtitle={project.subtitle}
                     key={index}
                   />
                 );
@@ -62,6 +74,8 @@ class ProjectsBoard extends Component {
                   <Project
                     imgUrl={project.url}
                     href={project.href}
+                    title={project.title}
+                    subtitle={project.subtitle}
                     key={index}
                   />
                 );
@@ -75,6 +89,8 @@ class ProjectsBoard extends Component {
                   <Project
                     imgUrl={project.url}
                     href={project.href}
+                    title={project.title}
+                    subtitle={project.subtitle}
                     key={index}
                   />
                 );

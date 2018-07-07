@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 
 class Project extends Component {
   render() {
+    let description;
+
     return (
-      <a
+      <div
         className="project"
-        href={this.props.href}
         style={{ backgroundImage: `url(${this.props.imgUrl})` }}
-      />
+      >
+        <div className="project__description">
+          <a href={this.props.href}>{this.props.title}</a>
+          <span>{this.props.subtitle}</span>
+        </div>
+      </div>
     );
   }
 }
