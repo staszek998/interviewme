@@ -1,0 +1,46 @@
+.projects-board-wrapper {
+  width: 100%;
+}
+
+.projects-board {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  &--tab,
+  &--desktop {
+    display: none;
+  }
+
+  @media only screen and (min-width: 460px) {
+    &--phone {
+      display: none;
+    }
+
+    &--tab {
+      display: flex;
+    }
+  }
+
+  @media only screen and (min-width: 960px) {
+    &--tab {
+      display: none;
+    }
+
+    &--desktop {
+      display: flex;
+    }
+  }
+}
+
+.projects-board__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

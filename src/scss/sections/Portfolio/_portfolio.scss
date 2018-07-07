@@ -1,0 +1,11 @@
+@import './project';
+@import './projects-board';
+
+.portfolio__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}

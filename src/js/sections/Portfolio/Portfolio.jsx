@@ -47,8 +47,7 @@ class Portfolio extends Component {
   render() {
     return (
       <section className="portfolio">
-        PORTFOLIO
-        <div className="container">
+        <div className="container portfolio__container">
           <SectionTitle text="portfolio" color="navy" />
           <ProjectsBoard projects={projects} />
         </div>

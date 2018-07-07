@@ -7,9 +7,7 @@ class Project extends Component {
         className="project"
         href={this.props.href}
         style={{ backgroundImage: `url(${this.props.imgUrl})` }}
-      >
-        I'm a project!
-      </a>
+      />
     );
   }
 }
