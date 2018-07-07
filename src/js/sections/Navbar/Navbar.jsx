@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import Logo from './Logo';
+import Link from './Link';
+
 class Navbar extends Component {
   render() {
     return (
