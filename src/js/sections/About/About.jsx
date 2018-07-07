@@ -4,8 +4,8 @@ import SectionTitle from '../../base-components/SectionTitle';
 import Text from './Text';
 import DownloadButton from './DownloadButton';
 
-let textPart1 = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quasi fuga magnam ipsum. Quibusdam perspiciatis molestias earum accusamus veritatis atque quasi molestiae magnam, recusandae in provident eveniet fugiat nam cum.`;
-let textPart2 = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis minus sint unde obcaecati saepe maiores fugit commodi atque? Sequi atque natus error cumque quos velit facilis eveniet odit provident.`;
+let textPart1 = `Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.`;
+let textPart2 = `Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!`;
 
 class About extends Component {
   render() {
