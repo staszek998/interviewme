@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Navbar from './sections/Navbar/Navbar';
 import Hero from './sections/Hero/Hero';
 import Portfolio from './sections/Portfolio/Portfolio';
+import About from './sections/About/About';
 
 class Main extends Component {
   render() {
@@ -12,6 +13,7 @@ class Main extends Component {
         <Navbar />
         <Hero />
         <Portfolio />
+        <About />
       </div>
     );
   }
