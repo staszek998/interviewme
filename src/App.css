@@ -325,7 +325,7 @@ section {
   height: 50px;
   background: none;
   border: 2px solid white;
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
   transition: 0.2s;
   display: flex;
@@ -348,6 +348,61 @@ section {
 
 .about__container {
   padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px; }
+  .contact__form input,
+  .contact__form textarea {
+    width: 100%;
+    max-width: 100%;
+    color: #304050;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+    font-size: 20px;
+    outline: none;
+    transition: 0.2s;
+    padding-bottom: 20px; }
+    .contact__form input:focus,
+    .contact__form textarea:focus {
+      border-bottom: 2px solid #304050; }
+    .contact__form input::placeholder,
+    .contact__form textarea::placeholder {
+      color: darkgray; }
+  .contact__form input:last-child {
+    background-color: #00ba9b;
+    align-self: flex-start;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0; }
+    .contact__form input:last-child:hover, .contact__form input:last-child:focus {
+      background: none;
+      border: 2px solid #00ba9b;
+      color: #00ba9b;
+      cursor: pointer; }
+    @media only screen and (min-width: 460px) {
+      .contact__form input:last-child {
+        width: 100px; } }
+  .contact__form textarea {
+    resize: none; }
+
+.contact {
+  padding: 80px 30px; }
+
+.contact__container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

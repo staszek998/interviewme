@@ -8,6 +8,7 @@ class Form extends Component {
         onSubmit={() => {
           alert('Message sent!');
         }}
+        className="contact__form"
       >
         <input placeholder="Name" type="text" />
         <input placeholder="E-mail address" type="email" />

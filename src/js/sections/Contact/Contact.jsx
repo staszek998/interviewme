@@ -7,8 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <section className="contact">
-        CONTACT
-        <div className="container">
+        <div className="container contact__container">
           <SectionTitle color="navy" text="contact me" />
           <Form />
         </div>

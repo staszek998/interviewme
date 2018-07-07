@@ -1,0 +1,59 @@
+@import '../../config/colors';
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+
+  input,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    color: $navy;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin: 10px 0;
+    font-size: 20px;
+    outline: none;
+    transition: 0.2s;
+    padding-bottom: 20px;
+
+    &:focus {
+      border-bottom: 2px solid $navy;
+    }
+
+    &::placeholder {
+      color: darkgray;
+    }
+  }
+
+  input:last-child {
+    background-color: $turquoise;
+    align-self: flex-start;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+      background: none;
+      border: 2px solid $turquoise;
+      color: $turquoise;
+      cursor: pointer;
+    }
+
+    @media only screen and (min-width: 460px) {
+      width: 100px;
+    }
+  }
+
+  textarea {
+    resize: none;
+  }
+}

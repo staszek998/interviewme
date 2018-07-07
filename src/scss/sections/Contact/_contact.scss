@@ -1,0 +1,13 @@
+@import './form';
+
+.contact {
+  padding: 80px 30px;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
