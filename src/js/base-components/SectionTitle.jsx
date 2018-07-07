@@ -6,14 +6,22 @@ class SectionTitle extends Component {
       return (
         <div className="section-title section-title--white">
           <span>{this.props.text}</span>
-          <hr /> {/* This horizontal line is here only temporarily */}
+          <div className="section-title__separator">
+            <div className="separator__line" />
+            <i className="fas fa-star" />
+            <div className="separator__line" />
+          </div>
         </div>
       );
     } else if (this.props.color === 'navy') {
       return (
         <div className="section-title section-title--navy">
           <span>{this.props.text}</span>
-          <hr /> {/* This horizontal line is here only temporarily */}
+          <div className="section-title__separator">
+            <div className="separator__line" />
+            <i className="fas fa-star" />
+            <div className="separator__line" />
+          </div>
         </div>
       );
     }

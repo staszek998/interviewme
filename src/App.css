@@ -202,3 +202,38 @@ section {
 
 .footer-bottom {
   background-color: #202932; }
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0; }
+  .section-title--white {
+    color: white; }
+    .section-title--white .separator__line {
+      background-color: white; }
+  .section-title--navy {
+    color: #304050; }
+    .section-title--navy .separator__line {
+      background-color: #304050; }
+  .section-title span {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+.section-title__separator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0; }
+  .section-title__separator i {
+    margin: 0 10px;
+    font-size: 20px; }
+
+.separator__line {
+  width: 100px;
+  height: 3px; }

@@ -8,7 +8,6 @@ class Hero extends Component {
   render() {
     return (
       <section className="hero">
-        HERO
         <div className="container">
           <Image />
           <Title />

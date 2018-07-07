@@ -1,0 +1,51 @@
+@import '../config/colors';
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+
+  &--white {
+    color: white;
+
+    .separator__line {
+      background-color: white;
+    }
+  }
+
+  &--navy {
+    color: $navy;
+
+    .separator__line {
+      background-color: $navy;
+    }
+  }
+
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.section-title__separator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+
+  i {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+}
+
+.separator__line {
+  width: 100px;
+  height: 3px;
+}
