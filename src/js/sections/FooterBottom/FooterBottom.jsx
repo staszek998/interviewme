@@ -6,8 +6,7 @@ class FooterBottom extends Component {
   render() {
     return (
       <section className="footer-bottom">
-        FOOTER BOTTOM
-        <div className="container">
+        <div className="container footer-bottom__container">
           <Copyright brand="Your Website" year="2018" />
         </div>
       </section>

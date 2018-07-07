@@ -1,5 +1,13 @@
 @import '../../config/colors';
+@import './copyright';
 
 .footer-bottom {
   background-color: $darkBlue;
+}
+
+.footer-bottom__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
