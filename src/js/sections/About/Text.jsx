@@ -7,6 +7,7 @@ class Text extends Component {
         <div className="text-part part-1">
           <p>{this.props.textPart1}</p>
         </div>
+        <br />
         <div className="text-part part-2">
           <p>{this.props.textPart1}</p>
         </div>

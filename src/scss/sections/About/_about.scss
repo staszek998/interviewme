@@ -1,5 +1,16 @@
 @import '../../config/colors';
+@import './text';
+@import './download-button';
 
 .about {
   background-color: $turquoise;
+}
+
+.about__container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }

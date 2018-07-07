@@ -11,8 +11,7 @@ class About extends Component {
   render() {
     return (
       <section className="about">
-        ABOUT
-        <div className="container">
+        <div className="container about__container">
           <SectionTitle color="white" text="about" />
           <Text textPart1={textPart1} textPart2={textPart2} />
           <DownloadButton

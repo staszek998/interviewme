@@ -1,0 +1,35 @@
+.about__text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  max-width: 800px;
+
+  @media only screen and (min-width: 460px) {
+    padding: 0 40px;
+  }
+  @media only screen and (min-width: 960px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.text-part {
+  color: white;
+  font-size: 18px;
+
+  @media only screen and (min-width: 460px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    width: 45%;
+  }
+
+  p {
+    line-height: 24px;
+  }
+}
