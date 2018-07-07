@@ -8,6 +8,7 @@
 
 # production
 /build
+design.pdf
 
 # misc
 .DS_Store
