@@ -1,4 +1,4 @@
-## Dear VP People Developer / Recruiter,
+## Dear InterviewMe Developer / Recruiter,
 
 this recruitment task was built with the _Facebook's_ powerful `create-react-app` boilerplate.
 
@@ -14,7 +14,7 @@ To run this project in the Developer Mode, please follow these steps:
 
 ### **Running the live version**
 
-You can also view the [live website](https://staszek998.github.io/vp-people/) running on the _GitHub Pages_.
+You can also view the [live website](https://staszek998.github.io/interviewme/) running on the _GitHub Pages_.
 
 ---
 
